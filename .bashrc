@@ -4,10 +4,6 @@
 
 # If not running interactively, don't do anything
 
-# Colour constants
-NC='\033[0m'
-BLACK='\033[0;30m'
-
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
